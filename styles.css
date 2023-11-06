@@ -1,0 +1,107 @@
+body {
+    background-color: #111; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111; 
+}
+
+#header .icons {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+#header .icons i {
+    color: gold;
+    margin-right: 10px;
+}
+
+#buttons {
+    display: flex;
+    margin-right: 20px;
+}
+
+.button {
+    background-color: transparent;
+    border: 2px solid gold;
+    color: gold;
+    padding: 10px 20px;
+    margin-left: 10px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+    background-color: gold;
+    color: #333;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.left-column {
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+}
+
+.left-column p {
+    font-size: 18px;
+}
+
+#contact {
+    background-color: #111;
+    padding: 20px;
+    color: gold;
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact form label {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 2px;
+    margin: 10px 0;
+    border: 1px solid gold;
+    background-color: transparent;
+    color: gold;
+}
+
+#contact form button {
+    background-color: transparent;
+    border: 2px solid gold;
+    color: gold;
+    padding: 10px 20px;
+    margin: 20px 0;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#contact form button:hover {
+    background-color: gold;
+    color: #333;
+}
